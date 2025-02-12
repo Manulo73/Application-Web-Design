@@ -30,32 +30,45 @@ Markdown es un lenguaje de marcado ligero que permite formatear texto de manera 
 [GitHub](https://github.com)
 
 ![Texto alternativo](url-de-la-imagen.png)
+```
 
 # Comandos Usados en Git
 
 ## Verificar el estado del repositorio  
+```
 git status
+```
 
 ## Agregar archivos
+```
 git add nombre-del-archivo  
 git add .  
+```
 
 ## Agregar comentarios en un commit
 
+```
 git commit -m "Descripción del commit"
+```
 
 ## Subir cambios al repositorio remoto
 
+```
 git push origin main
+```
 
 ## Crear, navegar y eliminar ramas
 
+```
 git branch nombre-de-la-rama  
 git checkout nombre-de-la-rama  
 git checkout -b nueva-rama  
 git branch -d nombre-de-la-rama  
+```
 
 ## Revertir el repositorio a un commit específico
 
+```
 git reset --hard commit-hash  
 git reset --soft commit-hash  
+```
